@@ -1,0 +1,48 @@
+h1 {
+    margin: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+div {
+    display: grid;
+    place-items: center;
+
+}
+
+input {
+    width: "100%";
+    margin-left: 40px;
+
+}
+
+p {
+    font-size: "1.25rem";
+    margin: "0px";
+    font-weight: 500;
+    line-height: "1.6";
+    letter-spacing: "0.0075em";
+    margin-left: 40px;
+}
+
+.square {
+    background-color: #fff;
+    float: left;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+
+}
+
+.board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+}

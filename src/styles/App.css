@@ -1,0 +1,97 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 300;
+
+}
+
+.post {
+    width: 400px;
+    height: 200px;
+    margin-top: -0.2em;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px gray, 10px 10px 30px grey;
+    text-align: center;
+}
+
+.myPost {
+    width: 320px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px gray, 10px 10px 30px grey;
+}
+
+.myIpput {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.myP {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.myH {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.myTH {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+.myTable {
+    min-width: 260;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 15px
+}
+
+.myStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5;
+}
+
+.myContainer {
+    font-weight: bold;
+    padding: 0px;
+}
+
+.myError {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
